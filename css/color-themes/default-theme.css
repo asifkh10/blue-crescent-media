@@ -97,7 +97,7 @@ a,
 
 /* Background Color */
 
-.btn-style-one,
+/* .btn-style-one,
 .header-top-two,
 .checkout-btn,
 .scroll-to-top:hover,
@@ -151,8 +151,8 @@ a,
 .sidebar-page-container .comments-area .comment-box .theme-btn,
 .main-header .sticky-header .outer-box .cart-box .cart-box-btn .total-cart,
 .main-menu .navigation > li:before{
-	background-color:rgba(0, 27, 113, 1);
-}
+	background-color:white;
+} */
 
 .experiance-tabs .tab-btns .tab-btn:before{
 	background: -webkit-radial-gradient(circle farthest-corner at center center, #0060ff 0%, #131E3C 100%);

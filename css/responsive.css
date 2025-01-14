@@ -1526,3 +1526,18 @@
 	}
 	
 }
+
+@media (min-width: 1281px) {
+
+    .mobile-whatsapp {
+        display: none;
+    }
+
+    .desktop-whatsapp {
+        display: block;
+    }
+
+    
+
+}
+

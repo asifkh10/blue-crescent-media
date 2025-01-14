@@ -43,8 +43,8 @@
 **********************************************/
 
 /* 
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 */
 
 @import url('font-awesome.css');
@@ -57,11 +57,12 @@
 @import url('jquery.fancybox.min.css');
 @import url('jquery.bootstrap-touchspin.css');
 @import url('jquery.mCustomScrollbar.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
 
 /*** 
 
 ====================================================================
-	Reset
+    Reset
 ====================================================================
 
  ***/
@@ -76,7 +77,7 @@
 /*** 
 
 ====================================================================
-	Global Settings
+    Global Settings
 ====================================================================
 
  ***/
@@ -211,7 +212,7 @@ img {
 /***
 
 ====================================================================
-	Scroll To Top style
+    Scroll To Top style
 ====================================================================
 
 ***/
@@ -222,7 +223,7 @@ img {
     right: 15px;
     width: 40px;
     height: 40px;
-    color: #0060ff;
+    color: #001b71 !important;
     font-size: 13px;
     text-transform: uppercase;
     line-height: 38px;
@@ -241,8 +242,8 @@ img {
 }
 
 .scroll-to-top:hover {
-    color: #ffffff;
-    background: #0060ff;
+    color: white !important;
+    background: #001b71;
 }
 
 /* List Style One */
@@ -310,14 +311,14 @@ img {
     font-family: 'FontAwesome';
 }
 
-.social-media a img{
-   height: 24px;
-    margin-bottom: 9px; 
+.social-media a img {
+    height: 24px;
+    margin-bottom: 9px;
 }
 
-.social-media a i{
+.social-media a i {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 10px;
 }
 
@@ -335,7 +336,7 @@ img {
     border-radius: 3px;
     overflow: hidden;
     text-transform: capitalize;
-    background-color: #0060ff;
+    background-color: #001b71;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -390,7 +391,7 @@ img {
     font-family: 'Montserrat', sans-serif;
 }
 
-.no-padding{
+.no-padding {
     padding: 0px;
 }
 
@@ -549,7 +550,7 @@ img {
 /*** 
 
 ====================================================================
-	Section Title
+    Section Title
 ====================================================================
 
 ***/
@@ -598,7 +599,7 @@ img {
 /*** 
 
 ====================================================================
-	Main Header style
+    Main Header style
 ====================================================================
 
 ***/
@@ -815,7 +816,7 @@ img {
     padding-top: 22px;
 }
 
-.banner-para{
+.banner-para {
     font-size: 20px;
     color: white;
 }
@@ -1027,7 +1028,7 @@ img {
     color: #222222;
 }
 
-.services-image{
+.services-image {
     height: 300px;
 }
 
@@ -1121,6 +1122,8 @@ img {
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
 }
+
+
 
 .main-header .search-box-btn:after {
     display: none;
@@ -1302,7 +1305,7 @@ img {
     color: white;
     text-align: center;
     line-height: 30px;
-/*     text-transform: uppercase; */
+    /*     text-transform: uppercase; */
     letter-spacing: 0px;
     opacity: 1;
     font-weight: 600;
@@ -1316,7 +1319,7 @@ img {
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-menu .navigation>li>a:hover{
+.main-menu .navigation>li>a:hover {
     color: white;
 }
 
@@ -1335,7 +1338,7 @@ img {
     line-height: 34px;
 }
 
-.services-image{
+.services-image {
     height: 250px;
     width: 100%;
 }
@@ -1348,7 +1351,7 @@ img {
     width: 0%;
     height: 4px;
     opacity: 0;
-    background-color: #0060ff;
+    background-color: #001b71;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -1394,7 +1397,7 @@ img {
     -o-transition: all 900ms ease;
     padding: 20px 15px;
     border-radius: 10px;
-    background-color: #001b71;
+    background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
 }
 
@@ -1421,12 +1424,16 @@ img {
     font-weight: 600;
     font-size: 15px;
     text-transform: capitalize;
-    color: white;
+    color: rgba(0, 27, 113, 1);
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
+}
+
+.main-menu .navigation>li>ul>li>a:hover {
+    color: #001b71 !important;
 }
 
 .sticky-header .main-menu .navigation>li>a {
@@ -1435,7 +1442,7 @@ img {
 
 .main-menu .navigation>li>ul>li>a:before {
     position: absolute;
-/*     content: '//'; */
+    /*     content: '//'; */
     left: 10px;
     top: 8px;
     opacity: 0;
@@ -1457,7 +1464,7 @@ img {
 
 .main-menu .navigation>li>ul>li:hover>a {
     color: #0060ff;
-/*     padding-left: 30px; */
+    /*     padding-left: 30px; */
 }
 
 .main-menu .navigation>li>ul>li.dropdown>a:after {
@@ -2138,7 +2145,7 @@ img {
 /*** 
 
 ====================================================================
-	Hidden Sidebar style
+    Hidden Sidebar style
 ====================================================================
 
 ***/
@@ -2776,7 +2783,7 @@ img {
 /*** 
 
 ====================================================================
-	Product Tabs Style
+    Product Tabs Style
 ====================================================================
 
 ***/
@@ -3061,7 +3068,7 @@ img {
 /*** 
 
 ====================================================================
-	Cart Section style
+    Cart Section style
 ====================================================================
 
 ***/
@@ -3668,7 +3675,7 @@ img {
 /*** 
 
 ====================================================================
-	Login / Register Section
+    Login / Register Section
 ====================================================================
 
 ***/
@@ -3869,7 +3876,7 @@ img {
 /*** 
 
 ====================================================================
-			Mobile Menu
+            Mobile Menu
 ====================================================================
 
 ***/
@@ -4077,7 +4084,7 @@ img {
 /*** 
 
 ====================================================================
-	Search Popup
+    Search Popup
 ====================================================================
 
 ***/
@@ -4331,7 +4338,7 @@ img {
 /*** 
 
 ====================================================================
-	Hidden Sidebar style
+    Hidden Sidebar style
 ====================================================================
 
 ***/
@@ -4445,7 +4452,7 @@ img {
 /*** 
 
 ====================================================================
-	Scroll To Top style
+    Scroll To Top style
 ====================================================================
 
 ***/
@@ -4498,7 +4505,7 @@ img {
 /*** 
 
 ====================================================================
-	Banner Section
+    Banner Section
 ====================================================================
 
 ***/
@@ -4587,16 +4594,17 @@ img {
     position: relative;
 }
 
-.title-two{
+.title-two {
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
-    
+
 }
-.bg-text{
-   background-color: #00000052;
-   padding: 5px; 
-   border-radius: 10px;
+
+.bg-text {
+    background-color: #00000052;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .banner-section .content-column .title {
@@ -4801,7 +4809,7 @@ img {
 /*** 
 
 ====================================================================
-	About Section
+    About Section
 ====================================================================
 
 ***/
@@ -4816,7 +4824,7 @@ img {
     position: relative;
     margin-bottom: 40px;
     background-color: rgba(242, 242, 242, 1);
-/*     height: 250px; */
+    /*     height: 250px; */
     padding: 30px 30px;
 }
 
@@ -4967,7 +4975,7 @@ img {
 /*** 
 
 ====================================================================
-	Featured Section
+    Featured Section
 ====================================================================
 
 ***/
@@ -5035,7 +5043,7 @@ img {
 /*** 
 
 ====================================================================
-	Services Section
+    Services Section
 ====================================================================
 
 ***/
@@ -5153,7 +5161,7 @@ img {
 
 .service-block .inner-box .text {
     position: relative;
-    color: #555555;
+    color: #001b71;
     font-size: 16px;
     line-height: 1.8em;
     transition: all 500ms ease;
@@ -5196,7 +5204,7 @@ img {
 /*** 
 
 ====================================================================
-	Services Section Two
+    Services Section Two
 ====================================================================
 
 ***/
@@ -5208,7 +5216,7 @@ img {
 }
 
 .services-section-two.margin-top {
-    /* 	margin-top:-170px; */
+    /*  margin-top:-170px; */
 }
 
 .services-section-two .upper-box {
@@ -5407,7 +5415,7 @@ img {
 /*** 
 
 ====================================================================
-	Call To Action Section
+    Call To Action Section
 ====================================================================
 
 ***/
@@ -5444,13 +5452,13 @@ img {
 .call-to-action-section .button-column .inner-column {
     position: relative;
     text-align: right;
-    /* 	padding-top:20px; */
+    /*  padding-top:20px; */
 }
 
 /*** 
 
 ====================================================================
-	Cases Section
+    Cases Section
 ====================================================================
 
 ***/
@@ -5612,7 +5620,7 @@ img {
 /*** 
 
 ====================================================================
-	Sponsors Section
+    Sponsors Section
 ====================================================================
 
 ***/
@@ -5771,7 +5779,7 @@ img {
 /*** 
 
 ====================================================================
-	Testimonial Section
+    Testimonial Section
 ====================================================================
 
 ***/
@@ -5906,7 +5914,7 @@ img {
 /*** 
 
 ====================================================================
-	Technology Section
+    Technology Section
 ====================================================================
 
 ***/
@@ -6049,7 +6057,7 @@ img {
 /*** 
 
 ====================================================================
-	Team Section
+    Team Section
 ====================================================================
 
 ***/
@@ -6176,7 +6184,7 @@ img {
 /*** 
 
 ====================================================================
-	News Section
+    News Section
 ====================================================================
 
 ***/
@@ -6269,7 +6277,7 @@ img {
     position: relative;
     line-height: 1.4em;
     font-weight: 700;
-    /* 	margin-top:12px; */
+    /*  margin-top:12px; */
 }
 
 .news-block .inner-box .lower-content h4 a {
@@ -6325,7 +6333,7 @@ img {
 /*** 
 
 ====================================================================
-	Main Footer
+    Main Footer
 ====================================================================
 
 ***/
@@ -6391,7 +6399,7 @@ img {
 
 .main-footer .widgets-section {
     position: relative;
-/*     padding-bottom: 40px; */
+    /*     padding-bottom: 40px; */
 }
 
 .main-footer .footer-widget h5 {
@@ -6490,15 +6498,20 @@ img {
 
 .list-link li a:hover {
 
-    /* 	text-decoration:line-through; */
+    /*  text-decoration:line-through; */
 }
 
 .list-link li a:before {
     position: absolute;
     content: "\f101";
-    left: 0px;
+    left: -2px;
     top: -2px;
+    font-size: 12px;
     font-family: 'FontAwesome';
+}
+
+.contact-informations a i {
+    font-size: 15px;
 }
 
 /* Recent Posts */
@@ -6671,13 +6684,13 @@ img {
 
 .main-footer.style-three .footer-bottom {
     border: none;
-    background-color: #0060ff;
+    background-color: #001b71;
 }
 
 /*** 
 
 ====================================================================
-	Banner Section Two
+    Banner Section Two
 ====================================================================
 
 ***/
@@ -7101,7 +7114,7 @@ img {
 /*** 
 
 ====================================================================
-	Experiance Section
+    Experiance Section
 ====================================================================
 
 ***/
@@ -7236,7 +7249,7 @@ img {
 /*** 
 
 ====================================================================
-	Counter Section
+    Counter Section
 ====================================================================
 
 ***/
@@ -7329,7 +7342,7 @@ img {
 /*** 
 
 ====================================================================
-	About Section Two
+    About Section Two
 ====================================================================
 
 ***/
@@ -7482,7 +7495,7 @@ img {
 /*** 
 
 ====================================================================
-	Process Section
+    Process Section
 ====================================================================
 
 ***/
@@ -7643,7 +7656,7 @@ img {
 /*** 
 
 ====================================================================
-	Team Section Two
+    Team Section Two
 ====================================================================
 
 ***/
@@ -7775,7 +7788,7 @@ img {
 /*** 
 
 ====================================================================
-	Appointment Section Two
+    Appointment Section Two
 ====================================================================
 
 ***/
@@ -8112,7 +8125,7 @@ img {
 /*** 
 
 ====================================================================
-	Banner Section Three
+    Banner Section Three
 ====================================================================
 
 ***/
@@ -8352,7 +8365,7 @@ img {
 /*** 
 
 ====================================================================
-	Services Section Three
+    Services Section Three
 ====================================================================
 
 ***/
@@ -8473,7 +8486,7 @@ img {
 /*** 
 
 ====================================================================
-	Fluid Section One
+    Fluid Section One
 ====================================================================
 
 ***/
@@ -8609,7 +8622,7 @@ img {
 /*** 
 
 ====================================================================
-	News Section Three
+    News Section Three
 ====================================================================
 
 ***/
@@ -8797,7 +8810,7 @@ img {
 /*** 
 
 ====================================================================
-	Call To Action Section
+    Call To Action Section
 ====================================================================
 
 ***/
@@ -8851,7 +8864,7 @@ img {
 /*** 
 
 ====================================================================
-	Cases Section Two
+    Cases Section Two
 ====================================================================
 
 ***/
@@ -9038,7 +9051,7 @@ img {
 /*** 
 
 ====================================================================
-	Pricing Section
+    Pricing Section
 ====================================================================
 
 ***/
@@ -9177,7 +9190,7 @@ img {
 /*** 
 
 ====================================================================
-	News Section Four
+    News Section Four
 ====================================================================
 
 ***/
@@ -9326,7 +9339,7 @@ img {
 /*** 
 
 ====================================================================
-	Info Section
+    Info Section
 ====================================================================
 
 ***/
@@ -9458,7 +9471,7 @@ img {
 /*** 
 
 ====================================================================
-	Page Title
+    Page Title
 ====================================================================
 
 ***/
@@ -9491,7 +9504,7 @@ img {
     font-weight: 700;
     line-height: 1.2em;
     margin-bottom: 0px;
-/*     text-transform: uppercase; */
+    /*     text-transform: uppercase; */
 }
 
 .page-breadcrumb {
@@ -9548,7 +9561,7 @@ img {
 /*** 
 
 ====================================================================
-	Faq's Page Section
+    Faq's Page Section
 ====================================================================
 
 ***/
@@ -9578,7 +9591,7 @@ img {
     position: relative;
     font-size: 18px;
     line-height: 35px;
-    color: #141d38;
+    color: #001b71;
     line-height: 1.8em;
     font-weight: 600;
     cursor: pointer;
@@ -9597,7 +9610,7 @@ img {
 .accordion-box .block .acc-btn.active {
     color: #ffffff;
     margin-bottom: 0px;
-    background-color: #0060ff;
+    background-color: #001b71 !important;
 }
 
 .accordion-box .block .icon {
@@ -9640,13 +9653,13 @@ img {
     display: block;
     font-size: 16px;
     line-height: 1.8em;
-    color: #555555;
+    color: #001b71;
 }
 
 /*** 
 
 ====================================================================
-	Faq Form Section
+    Faq Form Section
 ====================================================================
 
 ***/
@@ -9664,7 +9677,7 @@ img {
 /*** 
 
 ====================================================================
-	Faq Form
+    Faq Form
 ====================================================================
 
  ***/
@@ -9751,7 +9764,7 @@ img {
 /*** 
 
 ====================================================================
-	Testimonial Page Section
+    Testimonial Page Section
 ====================================================================
 
 ***/
@@ -9764,7 +9777,7 @@ img {
 /*** 
 
 ====================================================================
-	Coming Soon
+    Coming Soon
 ====================================================================
 
 ***/
@@ -10153,7 +10166,7 @@ img {
 /*** 
 
 ====================================================================
-	Services Page Section
+    Services Page Section
 ====================================================================
 
 ***/
@@ -10166,7 +10179,7 @@ img {
 /*** 
 
 ====================================================================
-	Sidebar Page Container
+    Sidebar Page Container
 ====================================================================
 
 ***/
@@ -10531,7 +10544,7 @@ img {
 /*** 
 
 ====================================================================
-	Gallery Section
+    Gallery Section
 ====================================================================
 
 ***/
@@ -10584,7 +10597,7 @@ img {
 /*** 
 
 ====================================================================
-	Project Detail Section
+    Project Detail Section
 ====================================================================
 
 ***/
@@ -10712,7 +10725,7 @@ img {
 /*** 
 
 ====================================================================
-	Contact Info Section
+    Contact Info Section
 ====================================================================
 
 ***/
@@ -10738,7 +10751,7 @@ img {
 .contact-info-section .title-box h2 {
     position: relative;
     font-weight: 700;
-    color: #141d38;
+    color: #001b71;
     line-height: 1.4em;
     margin-top: 10px;
     font-size: 21px;
@@ -10774,14 +10787,14 @@ img {
     position: absolute;
     left: 0px;
     top: 0px;
-    color: #0060ff !important;
+    color: #001b71 !important;
     font-size: 44px;
     line-height: 1em;
 }
 
 .contact-info-section .info-column ul li {
     position: relative;
-    color: #555555;
+    color: #001b71;
     font-size: 16px;
     margin-top: 5px;
     font-weight: 600;
@@ -10791,7 +10804,7 @@ img {
     position: relative;
     font-weight: 700;
     font-size: 18px;
-    color: #141d38;
+    color: #001b71;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -10813,7 +10826,7 @@ img {
 /***
 
 ==================================================================
-		Contact Map Section
+        Contact Map Section
 ==================================================================
 
 ***/
@@ -10909,6 +10922,8 @@ img {
     cursor: pointer;
 }
 
+
+
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error {
@@ -10929,7 +10944,7 @@ img {
 /***
 
 ==================================================================
-	Blog Page Section
+    Blog Page Section
 ==================================================================
 
 ***/
@@ -10946,7 +10961,7 @@ img {
 /*** 
 
 ====================================================================
-	Styled Pagination
+    Styled Pagination
 ====================================================================
 
 ***/
@@ -11655,7 +11670,7 @@ img {
 /*** 
 
 ====================================================================
-	Comments Area
+    Comments Area
 ====================================================================
 
  ***/
@@ -11773,7 +11788,7 @@ img {
 /*** 
 
 ====================================================================
-	Comment Form
+    Comment Form
 ====================================================================
 
 ***/
@@ -12021,6 +12036,8 @@ img {
     left: auto;
     right: 100%;
 }
+
+
 
 .rtl .main-header .outer-box {
     margin-left: 0px;
@@ -12580,7 +12597,7 @@ img {
 /*** 
 
 ====================================================================
-		Banner Section Two
+        Banner Section Two
 ====================================================================
 
 ***/
@@ -12772,14 +12789,17 @@ img {
 .rtl .main-header .info-box:first-child {
     margin-left: 0px;
 }
-.contact-informations li a{
-	color: white;
-	font-size: 18px;
+
+.contact-informations li a {
+    color: white;
+    font-size: 18px;
 }
+
 .contact-informations li {
 
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .fa-whatsapp {
     font-size: 30px;
     color: rgba(0, 27, 113, 1);
@@ -12802,69 +12822,78 @@ img {
     padding-top: 15px;
 }
 
-.my-float{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:110px;
-    right:5px;
-    background-color:#67ce25;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-  font-size:30px;
+.my-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 110px;
+    right: 5px;
+    background-color: #67ce25;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
     box-shadow: 2px 2px 3px #999;
-  z-index:100;
-  padding-top: 10px;
+    z-index: 100;
+    padding-top: 10px;
 }
 
-.icofont-whatsapp{
-    margin-top:16px;
+.icofont-whatsapp {
+    margin-top: 16px;
 }
 
-.float-one{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:110px;
-    left:5px;
-    background-color:white;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-  font-size:30px;
+.float-one {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 110px;
+    left: 5px;
+    background-color: white;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
     box-shadow: 2px 2px 3px #999;
-  z-index:100;
-  padding-top: 18px;
+    z-index: 100;
+    padding-top: 14px;
 }
 
-.icofont-whatsapp{
-    margin-top:16px;
+.icofont-whatsapp {
+    margin-top: 16px;
 }
+
 @media (min-width: 1281px) {
-  
-.mobile-whatsapp{
-  display: none;
-}  
 
-.desktop-whatsapp{
-  display: block;
-}
-  
+    .mobile-whatsapp {
+        display: none;
+    }
+
+    .desktop-whatsapp {
+        display: block;
+    }
+
+    
+
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-.mobile-whatsapp{
-  display: block;
-}  
 
-.desktop-whatsapp{
-  display: none;
+    .mobile-whatsapp {
+        display: block;
+    }
+
+    .desktop-whatsapp {
+        display: none;
+    }
+    .services-bg{
+        background-color: #011b72;
+    }
+    .services-image{
+        width: 60%;
+    }
 }
+
+
+.sticky-header .main-menu .navigation>li>a:hover {
+    color: red !important;
 }
-
-
-
-
-
